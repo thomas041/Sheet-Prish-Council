@@ -158,7 +158,7 @@ html,body{
 	color:#FFFFFF;
 	text-align:center;
 	padding:12px 4px 12px 4px;
-	margin: 0 10px 0 0;	
+	margin: 0 10px 0 0;
 	text-decoration:none;
 }
 
@@ -171,7 +171,7 @@ html,body{
 	width:180px;
 	text-align:center;
 	padding:12px 4px 12px 4px;
-	margin: 0 10px 0 0;	
+	margin: 0 10px 0 0;
 	text-decoration:none;
 }
 
@@ -197,7 +197,7 @@ html,body{
 	height: 235px;
 	float: left;
 	margin: 0 12px 0 0;
-	position:relative; 
+	position:relative;
 }
 
 #image2{
@@ -206,7 +206,7 @@ html,body{
 	height: 235px;
 	float: left;
 	margin: 0 0 0 0;
-	position:relative; 
+	position:relative;
 }
 
 #image3{
@@ -215,7 +215,7 @@ html,body{
 	height: 235px;
 	float: left;
 	margin: 12px 12px 0 0;
-	position:relative; 
+	position:relative;
 }
 
 #image4{
@@ -224,14 +224,14 @@ html,body{
 	height: 235px;
 	float: left;
 	margin: 12px 0 0 0;
-	position:relative; 
+	position:relative;
 }
 
 .imgtext{
 	background-color: #C6C6C6;
 	width: 385px;
 	height: 20px;
-	position:absolute; 
+	position:absolute;
 	bottom: 0;
 	left: 0;
 	color: #FFF;
@@ -386,7 +386,7 @@ img{
 	width:240px;
 	text-align:center;
 	padding:12px 4px 12px 4px;
-	margin: auto;	
+	margin: auto;
 }
 
 .download a{
@@ -437,3 +437,96 @@ p.inline{
 	width: 680px;
 	float: right;
 }
+
+/* S T A R T GALLERY CSS */
+
+#mainImage {
+	text-align: justify;
+	padding: 0px;
+	width: 641px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.centerImage2 {
+	width: 400px;
+	padding-top: 0px;
+	padding-right: 140px;
+	padding-bottom: 0px;
+	padding-left: 140px;
+	margin: 0px;
+}
+
+.slider {
+	margin: 0px;
+	width: 625px;
+	height: 469px;
+	border: 8px solid #FFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 4px #333333;
+	position: relative;
+}
+.slider_next{
+	width: 62px;
+	height: 62px;
+	background: #f8f8f8;
+	border-radius: 70px;
+	position: absolute;
+	z-index: 99;
+	top: 200px;
+	left: 595px;
+	padding: 5px 0 0 5px;
+	cursor: pointer;
+}
+.slider_prev{
+	width: 62px;
+	height: 62px;
+	background: #f8f8f8;
+	border-radius: 70px;
+	position: absolute;
+	z-index: 99;
+	top: 200px;
+	left: -35px;
+	padding: 5px 0 0 5px;
+	cursor: pointer;
+}
+#thumbnail {
+	width: 100%;
+	height: 80px;
+	margin: 20px 5px;
+}
+
+#thumbnail li {
+	width: 60px;
+	float: left;
+	margin: 10px;
+	list-style: none
+}
+
+#thumbnail a {
+	width: 60px;
+	padding: 3px;
+	display: block;
+	border: 3px solid #FFFFFF;
+ 	border-radius:3px;
+ 	box-shadow: 1px 1px 3px #333333;
+}
+
+#thumbnail li.activeSlide a {
+	border: 2px solid #0a526f;
+ 	border-radius:1px;
+ 	box-shadow: 1px 1px 3px #333333;
+}
+
+#thumbnail a:focus {
+	outline: none;
+}
+
+#thumbnail img {
+	border: none;
+	display: block
+}
+
+/* E N D GALLERY CSS */
